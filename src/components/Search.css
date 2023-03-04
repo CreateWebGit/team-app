@@ -1,0 +1,115 @@
+.searchContainer {
+  position: relative;
+    width: 752px;
+    height: 22px;
+    margin: 0 auto 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .searchContainerMobile {
+    display: none;
+  }
+  
+  .filterContainer {
+    
+  }
+  
+  .searchIconDesc {
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+  .searchIconListColumn {
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+
+  .searchInputContainer {
+    padding:0;
+    margin:0;
+    position: absolute;
+    left: 35px;
+  }
+  
+  .input {
+    height: 19px;
+    width: 351px;
+    padding-left: 1.5rem;
+    border-radius:10px;
+    border-width: 0px;
+  }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
+
+  .searchIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    box-sizing:border-box;
+    margin-top: 6px;
+    top:50%;
+    left:4px;
+    transform: translateY(-50%);
+  }
+  
+  
+
+  @media only screen and (device-width: 390px) {
+
+    .searchContainer {
+      display: none;
+      
+    }
+    
+    .searchContainerMobile {
+      width: 302px;
+      margin: auto;
+      display: block;
+    }
+  
+    .searchFilterListContainer {
+      margin: 20px 0;
+      display: block;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .searchInputContainerMobile {
+      position: relative;
+      width: 302px;
+    }
+  
+    .searchIconMobile {
+      height: 1.5rem;
+      width: 1.5rem;
+      padding: 4px;
+      position: absolute;
+      box-sizing:border-box;
+      top:50%;
+      left:2px;
+      transform: translateY(-50%);
+    }
+    
+    .searchInputMobile {
+      
+      width: 275px;
+      height: 25px;
+      padding-left: 1.5rem;
+      border-radius:10px;
+      border-width: 0px;
+    }
+    
+}  

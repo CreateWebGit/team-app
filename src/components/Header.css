@@ -1,0 +1,26 @@
+
+.headerContainer {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    margin: 75px 0 75px 271px;
+    font-size: 48px;
+    font-family: "Work Sans";
+    font-weight: 400
+}
+
+@media only screen and (device-width: 390px) {
+    .headerContainer {
+        width: 300px;
+        text-align: left;
+    }
+
+    header {
+        width: 100%;
+        margin: 75px 0 20px 0 ;
+        font-size: 24px;
+    }
+}
